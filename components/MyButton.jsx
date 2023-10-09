@@ -2,9 +2,9 @@
 
 import { Button } from "@nextui-org/react"
 
-const MyButton = ({text}) => {
+const MyButton = ({ text, className, type}) => {
     return (
-        <Button className="py-3 px-8 font-semibold w-max rounded-full bg-color1 text-white">{text}</Button>
+        <Button type={type} className={`py-3 px-8 font-semibold w-max rounded-full bg-color1 text-white ${className}`}>{text}</Button>
     )
 }
 

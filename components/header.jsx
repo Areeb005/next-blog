@@ -38,7 +38,7 @@ export default function App() {
             motionProps={'visible'}
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
-            className="shadow-xl rounded-3xl py-2 max-w-full justify-normal"
+            className="z-50 shadow-xl rounded-3xl py-2 max-w-full justify-normal"
             ref={ref}
         >
 

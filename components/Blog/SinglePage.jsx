@@ -52,7 +52,7 @@ const SinglePage = () => {
                     </div>
                 </div>
 
-                <div className="">
+                <div className="relative">
                     <SidebarArticles />
                 </div>
             </div>
